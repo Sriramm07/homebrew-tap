@@ -2,28 +2,28 @@
 class Tacitty < Formula
   desc "Type @alias at any terminal password prompt and the real secret is sent instead"
   homepage "https://github.com/Sriramm07/tacitty"
-  version "0.1.0"
+  version "1.0.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/Sriramm07/tacitty/releases/download/v0.1.0/tacitty-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "760a98739020a86ac433477644068b0af0b7cfce9edd327ba2520372ec34cd0d"
+      url "https://github.com/Sriramm07/tacitty/releases/download/v1.0.0/tacitty-v1.0.0-aarch64-apple-darwin.tar.gz"
+      sha256 "54536b5761bcb508673152117a7c747434e04d847d4828afdea610249d5c467b"
     end
     on_intel do
-      url "https://github.com/Sriramm07/tacitty/releases/download/v0.1.0/tacitty-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "6d74a1f41b9fd27462a7bf32d0aa59105f402c260c03d7ffff86dd458d884301"
+      url "https://github.com/Sriramm07/tacitty/releases/download/v1.0.0/tacitty-v1.0.0-x86_64-apple-darwin.tar.gz"
+      sha256 "17b080df0980750f6fb90040adf1bb81584f3154770471174304ea0856996d96"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Sriramm07/tacitty/releases/download/v0.1.0/tacitty-v0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "f034c8110461a4ec1483a4070443c202e95d7b38e0ea3baecec3ea9fe0489c5c"
+      url "https://github.com/Sriramm07/tacitty/releases/download/v1.0.0/tacitty-v1.0.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "11bd5c8ef9abac1945b8695d6c6e0c9d1d146294dbd6bd50810b14f22ccae4de"
     end
     on_intel do
-      url "https://github.com/Sriramm07/tacitty/releases/download/v0.1.0/tacitty-v0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "b2a4370862db958caec566a2d5194503c85f40fab3529ea5df9651961b4541de"
+      url "https://github.com/Sriramm07/tacitty/releases/download/v1.0.0/tacitty-v1.0.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "cacc6c60f5d66c9bc36b66306791ef5a7417f660638ab768499b337fe49a9a94"
     end
   end
 
